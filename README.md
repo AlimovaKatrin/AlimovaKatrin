@@ -7,7 +7,6 @@
 - Telegram: [@alimova_katrin](https://telegram.me/alimova_katrin)
 - LinkedIn: [linkedin.com/in/katrin-alimova](https://www.linkedin.com/in/katrin-alimova/)
 - GitHub: [github.com/AlimovaKatrin](https://github.com/AlimovaKatrin)
-- Местоположение и формат: Россия, удалённая работа
 
 ## Профессиональный профиль
 

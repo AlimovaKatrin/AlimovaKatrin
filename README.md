@@ -1,77 +1,76 @@
-**Frontend-разработчик**
+# Катрин Алимова
 
-## Контакты
+**Frontend Developer · React и TypeScript · 6+ лет опыта**
 
-- Телефон: [+7 969 088-83-17](tel:+79690888317)
-- Email: [alimova.katrin8@gmail.com](mailto:alimova.katrin8@gmail.com)
-- Telegram: [@alimova_katrin](https://telegram.me/alimova_katrin)
-- LinkedIn: [linkedin.com/in/katrin-alimova](https://www.linkedin.com/in/katrin-alimova/)
-- GitHub: [github.com/AlimovaKatrin](https://github.com/AlimovaKatrin)
+Разрабатываю интерфейсы со сложной логикой: от админ-панелей и программ лояльности до платежей и банковских интеграций. В RuStore отвечала за весь frontend админки программы лояльности и часть backend на Kotlin/Spring. В Fena работала над платёжными сценариями.
 
-## Профессиональный профиль
+Мне интересно разбираться в продукте целиком: согласовывать API-контракты, делать удобные интерфейсы и доводить изменения до релиза. Основной фокус — frontend; опыт backend помогает решать задачи на стыке сервисов и интерфейса.
 
-Frontend-разработчик с более чем 6 годами коммерческого опыта в продуктовых командах: RuStore, финтех, банковские системы, data-платформы и EdTech. Специализируюсь на React и TypeScript, сложной бизнес-логике и API-driven интерфейсах: пользовательских сценариях, формах, платёжных операциях, таблицах и административных инструментах. Веду функциональность от требований и API-контрактов до тестирования и релиза во взаимодействии с продуктом, дизайном, backend и QA. Перерабатываю legacy-код, развиваю компонентную архитектуру и дизайн-системы, устраняю технический долг. Пишу и стабилизирую Playwright E2E, использую Storybook и автоматизирую проверку тестовых моков по OpenAPI. Опыт Node.js и Kotlin/Spring помогает самостоятельно решать интеграционные задачи, не смещая основной фокус с frontend-разработки.
+[Telegram](https://t.me/alimova_katrin) · [Email](mailto:alimova.katrin8@gmail.com) · [LinkedIn](https://www.linkedin.com/in/katrin-alimova/)
 
-## Ключевые навыки
+## Стек
 
-- **Frontend:** React, TypeScript, JavaScript, HTML, CSS, Redux, Redux Toolkit, TanStack Query, Jotai
-- **State management и данные:** REST API, мапперы и нормализация данных, react-hook-form, Yup, пагинация, feature toggles
-- **UI и дизайн-системы:** Storybook, UI Kit, Material UI, styled-components, drag-and-drop, адаптивная вёрстка
-- **Тестирование:** Playwright, E2E, MSW, screenshot tests, OpenAPI, AJV
-- **Инструменты:** Git, GitLab CI/CD, GitHub Actions, Docker, Vite, Webpack
-- **Дополнительный backend:** Node.js, Kotlin, Spring Boot, MongoDB, SQL
-- **Командная работа:** оценка и декомпозиция задач, планирование, приоритизация, code review, взаимодействие с продуктом, дизайном, backend и QA
+- **Frontend:** React, TypeScript, JavaScript, HTML, CSS, Redux / Redux Toolkit, React Hook Form, Yup.
+- **UI:** UI Kit, Storybook, Material UI, styled-components, адаптивная вёрстка, feature flags.
+- **Качество:** Playwright, MSW, E2E, UI- и интеграционные тесты, OpenAPI, code review.
+- **Backend и данные:** Kotlin, Java, Spring Boot, Node.js, REST API, SQL, PostgreSQL, MongoDB.
+- **Инструменты:** Git, Docker, CI/CD, GitHub Actions, Grafana.
 
 ## Опыт работы
 
-### Frontend Developer — VK / RuStore
+### VK / RuStore — Frontend Developer
+
 **Ноябрь 2023 — настоящее время**
 
-Продуктовая разработка веб-админки, консоли и пользовательских сценариев RuStore в React/TypeScript-монорепозитории; интеграции с backend-сервисами, тестирование и релизы.
+Админ-панель и консоль платформы распространения приложений и игр. React/TypeScript на frontend, Kotlin/Spring на backend.
 
-- Спроектировала и реализовала пользовательский раздел программы лояльности: главный экран, онбординг, каталог приложений с пагинацией и независимыми состояниями загрузки ключевых блоков.
-- Разработала frontend административного модуля лояльности: семь экранов, сложные формы, фильтры, статусы и drag-and-drop; связала UI с API и правилами доступа.
-- Реализовала новый промо-формат с формами создания, редактирования и просмотра, Yup-валидацией и API-мапперами; дополнила backend-контракты, миграцию и безопасную обработку SVG.
-- Переработала модуль событий: декомпозировала крупную форму, унифицировала списки и карточки, перевела запросы на gateway и заменила самописные элементы компонентами UI Kit.
-- Мигрировала загрузку изображений на единый backend file-uploader, вынесла multipart-обработку, нормализацию ответа и SVG-preview в переиспользуемые helpers для нескольких продуктовых модулей.
-- Стабилизировала Playwright E2E, заменив зависимость от реального backend на MSW-моки и устранив гонки подготовки данных в нестабильных сценариях.
+- С нуля реализовала весь frontend админки программы лояльности: настройку достижений и триггеров, формы, фильтры, статусы, drag-and-drop и права доступа. Участвовала в согласовании доменной модели и API-контрактов. Программа вышла в пилот.
+- Дополняла backend лояльности: CRUD-операции, DTO и мапперы, admin/user gateway API, миграции БД и интеграционные тесты.
+- Реализовывала новые промо-форматы от форм React/TypeScript и валидации до Kotlin API и загрузки изображений.
+- Доработала обработку ошибок внешнего платёжного провайдера и покрыла сценарии тестами клиента и интеграционными тестами.
+- Разрабатывала переиспользуемые компоненты UI Kit, добавляла Storybook-сценарии. Писала и стабилизировала Playwright E2E и UI-тесты.
+- Сопровождала поэтапную раскатку сервиса достижений с проверкой логов и состояния сервиса в Grafana.
+- Внедрила AI-ревьюер в frontend-репозиторий и дорабатывала промпты. Помогала QA включаться во frontend-разработку и выступала на внутренних митапах frontend-команды.
 
-### Fullstack Developer / Team Lead — Elbrus Coding Bootcamp
+### Elbrus Coding Bootcamp — Fullstack Developer / Team Lead
+
 **Декабрь 2022 — ноябрь 2023**
 
-- Разрабатывала и поддерживала внутренние и публичные продукты для студентов, наставников и операционной команды на React, Redux, Node.js и MongoDB, реализуя изменения на frontend и backend.
-- Координировала разработку, проводила code review и наставничество; поддерживала Docker-окружение и GitHub Actions для сборки и автоматизированных проверок.
+Разрабатывала внутренние и публичные продукты для студентов, наставников и операционной команды на React, Redux, Node.js и MongoDB. Координировала разработку, проводила code review и наставничество. Поддерживала Docker-окружение и GitHub Actions.
 
-### Full Stack Developer — Fena Ltd., London
+### Fena Ltd — Full Stack Developer
+
 **Май 2022 — декабрь 2022**
 
-- Разработала на React/TypeScript продуктовые сценарии массовых платежей, обработки транзакций и управления банковскими счетами, связав интерфейсы с Redux Toolkit и backend-сервисами.
-- Интегрировала внешние банковские API и реализовывала операции сквозным образом на frontend и Node.js backend; проводила code review и поддерживала младших разработчиков.
+Разрабатывала на React/TypeScript сценарии массовых платежей, обработки транзакций и управления банковскими счетами. Интегрировала внешние банковские API, реализовывала операции на frontend и Node.js backend. Проводила code review и помогала младшим разработчикам.
 
-### Fullstack Developer — Sibur Digital
+### Sibur Digital — Fullstack Developer
+
 **Январь 2021 — май 2022**
 
-- Разработала data-intensive интерфейсы Data Catalog для архитекторов данных на React, TypeScript, Redux Toolkit и Material UI, интегрировав пользовательские workflow с backend API.
-- Доводила функции до сквозной реализации, дополняя Node.js/TypeScript-сервисы, RPC-взаимодействие, SQL и Python API и согласовывая контракты с backend- и data-командами.
+Разрабатывала интерфейсы Data Catalog на React, TypeScript, Redux Toolkit и Material UI. Дополняла Node.js/TypeScript-сервисы, RPC-взаимодействие, SQL и Python API; согласовывала контракты с backend- и data-командами.
 
-### Frontend Developer — Creatly
-**Май 2021 — октябрь 2021**
+### Ранее
 
-- Создавала адаптивные интерфейсы редактора онлайн-курсов на React, Redux, Material UI и styled-components, согласовывая интерактивные компоненты и пользовательские сценарии с дизайнерами.
+- **Creatly — Frontend Developer:** адаптивные интерфейсы редактора онлайн-курсов на React, Redux, Material UI и styled-components.
+- **ВТБ — Frontend Developer:** внутренний банковский портал на Angular/TypeScript и компоненты дизайн-системы.
 
-### Frontend Developer — Банк ВТБ
-**Август 2019 — декабрь 2019**
+## Публичные учебные проекты
 
-- Разрабатывала внутренний банковский портал поддержки юридических лиц на Angular и TypeScript и компоненты внутренней дизайн-системы; участвовала в code review.
+Большая часть моей текущей продуктовой разработки находится в закрытом корпоративном GitLab. Здесь — учебные проекты, технические задания и практика.
 
-## Дополнительное образование
+- [Fena Mail Sender](https://github.com/AlimovaKatrin/fena-mail-sender) — fullstack-проект на React и NestJS: имитация отправки писем и обновление статусов через WebSocket.
+- [Current User and Transactions](https://github.com/AlimovaKatrin/test1) — тренажёр React/TypeScript: загрузка данных из API, состояния запросов и тестирование.
+- [Account Switcher and Race Condition](https://github.com/AlimovaKatrin/test2) — тренажёр React/TypeScript: переключение счетов, отмена запросов и гонки ответов.
+- [Vending Kotlin](https://github.com/AlimovaKatrin/vending_kotlin) — учебный backend на Kotlin для работы с товарами и складскими остатками.
 
-- Kotlin — JavaRush, 2025
-- Python — Google Crash Course, Coursera, 2022
+## Образование и языки
 
-## Языки
+- Kotlin, JavaRush — январь 2025.
+- Python Google Crash Course, Coursera — июль 2022.
+- Agile and Scrum, Coursera — июль 2021.
+- Русский — родной. Английский — C1.
 
-- Русский — родной
-- Английский — C1
+## Контакты
 
-Большая часть актуального кода находится в закрытом корпоративном GitLab; готова обсуждать индивидуальный вклад, технические решения и обезличенные примеры на интервью.
+[alimova.katrin8@gmail.com](mailto:alimova.katrin8@gmail.com) · [Telegram @alimova_katrin](https://t.me/alimova_katrin) · [LinkedIn](https://www.linkedin.com/in/katrin-alimova/) · [+7 969 088-83-17](tel:+79690888317)

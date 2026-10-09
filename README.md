@@ -63,7 +63,7 @@
 - [Current User and Transactions](https://github.com/AlimovaKatrin/test1) — тренажёр React/TypeScript: загрузка данных из API, состояния запросов и тестирование.
 - [Account Switcher and Race Condition](https://github.com/AlimovaKatrin/test2) — тренажёр React/TypeScript: переключение счетов, отмена запросов и гонки ответов.
 - [Vending Kotlin](https://github.com/AlimovaKatrin/vending_kotlin) — учебный backend на Kotlin для работы с товарами и складскими остатками.
-- [Тихий город](https://github.com/AlimovaKatrin/pdd) — прототип игры по ПДД на React, TypeScript и Phaser: сценарий STOP и история нарушений в IndexedDB (репозиторий приватный).
+- [Тихий город](https://pdd-nu-six.vercel.app/) — прототип игры по ПДД на React, TypeScript и Phaser: сценарий STOP и история нарушений в IndexedDB (репозиторий приватный).
 
 ## Образование и языки
 
